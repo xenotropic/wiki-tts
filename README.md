@@ -1,3 +1,6 @@
+# mostly defunct -- see wcast
+This is work that I did a couple of years ago to generate full files, but my interest now has shifted to [Wcast](https://github.com/xenotropic/wcast/) and seeing what I can do within an Android app and just handing off at the TTS Android API level for local generation on mobile devices. The main thing of interest to others, I think, still here would be the regular expressions and lightweight text normalization for Wikipedia data generally. You could point an agent at this and extract it into your format and language of choice. But if you're going to do that, probably would be better to point it at wcast directly since I'm more actively developing it there. 
+
 # wiki-tts
 Scripts gluing together the [TorToiSe](https://github.com/neonbjb/tortoise-tts) text to speech engine with [Nvidia's NeMo](https://github.com/NVIDIA/NeMo-text-processing) and other text preprocessing with the goal of getting clean audio readings of Wikipedia articles. You can listen to example outputs, as a podcast RSS feed, at https://wcast.me . Theoretically they should be getting better over time, as I improve the text preprocessing pipeline. 
 
